@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      xmlns:dcterms="http://purl.org/dc/terms/" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title>Anabasis</dc:title>
+      <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+      <dc:subject>Anabasis by Xenofon, Translation by H. G. Dakyns</dc:subject>
+      <dc:description>Anabasis by Xenofon, Translation by H. G. Dakyns</dc:description>
+      <dc:relation>http://www.hxa.name/</dc:relation>
+      <dc:creator>Xenophon</dc:creator>
+      <dc:publisher>Christopher Kamsler</dc:publisher>
+      <dc:rights>Creative Commons BY-SA 3.0 License.</dc:rights>
+   </metadata>
+
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+      <item id="css" href="book.css" media-type="text/css" />
+      <item id="title" href="title.html" media-type="application/xhtml+xml" />
+      <item id="contents" href="contents.html" media-type="application/xhtml+xml" />
+      <item id="book1" href="book1.html" media-type="application/xhtml+xml" />
+      <item id="book2" href="book2.html" media-type="application/xhtml+xml" />
+      <item id="book3" href="book3.html" media-type="application/xhtml+xml" />
+      <item id="book4" href="book4.html" media-type="application/xhtml+xml" />
+      <item id="book5" href="book5.html" media-type="application/xhtml+xml" />
+      <item id="book6" href="book6.html" media-type="application/xhtml+xml" />
+      <item id="book7" href="book7.html" media-type="application/xhtml+xml" />
+   </manifest>
+
+   <spine toc="ncx">
+      <itemref idref="title" />
+      <itemref idref="contents" />
+      <itemref idref="book1" />
+      <itemref idref="book2" />
+      <itemref idref="book3" />
+      <itemref idref="book4" />
+      <itemref idref="book5" />
+      <itemref idref="book6" />
+      <itemref idref="book7" />
+   </spine>
+
+   <guide>
+      <reference type="title-page" title="Title Page" href="html/title.html" />
+      <reference type="toc" title="Table of Contents" href="html/contents.html" />
+      <reference type="text" title="Book 1" href="book1.html" />
+      <reference type="text" title="Book 2" href="book2.html" />
+      <reference type="text" title="Book 3" href="book3.html" />
+      <reference type="text" title="Book 4" href="book4.html" />
+      <reference type="text" title="Book 5" href="book5.html" />
+      <reference type="text" title="Book 6" href="book6.html" />
+      <reference type="text" title="Book 7" href="book7.html" />
+   </guide>
+
+</package>

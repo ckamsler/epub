@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package version="3.0" 
+         xml:lang="en"
+         xmlns="http://www.idpf.org/2007/opf" 
+         unique-identifier="pub-id">
+    
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier 
+              id="pub-id">urn:uuid:B9B412F2-CAAD-4A44-B91F-A375068478A0</dc:identifier>
+        <meta refines="#pub-id" 
+              property="identifier-type" 
+              scheme="xsd:string">uuid</meta>
+        
+        <dc:language>en</dc:language>
+        
+        <dc:title>The Architecture of Open Source Applications</dc:title>
+        
+        <dc:creator id="creator">Amy Brown and Greg Wilson</dc:creator>
+        <meta refines="#creator" 
+              property="role" 
+              scheme="marc:relators">aut</meta>
+        
+        <meta property="dcterms:modified">2000-03-24T00:00:00Z</meta>
+        
+        <dc:publisher>Lulu.com</dc:publisher>
+        
+        <dc:date>2008-05-07</dc:date>
+        
+    </metadata>
+    
+    <manifest>
+        <item id="r4915" 
+              href="en/index.html" 
+              media-type="application/xhtml+xml"/>
+        <item id="r7184" 
+              href="images/cover1.jpg" 
+              media-type="image/png"/>
+        <item id="ncx" 
+              href="toc.ncx" 
+              media-type="application/x-dtbncx+xml"/>
+    </manifest>
+    
+    <spine toc="ncx">
+        <itemref idref="r4915"/>
+    </spine>
+</package>

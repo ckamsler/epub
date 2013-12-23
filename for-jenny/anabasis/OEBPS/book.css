@@ -1,0 +1,9 @@
+/* Global */
+h1, h2, h3, h4 { text-align: center; }
+a { display: block; text-decoration: none; }
+
+/* Title Page */
+.title-body { background: rgb(60, 0, 0); color: white; }
+.title { margin-top: 50px; }
+.title h4 { font-style: italic; }
+.title hr { margin: 30px; }
